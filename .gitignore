@@ -1,0 +1,20 @@
+# Vendor binaries — never redistribute copyrighted vendor software.
+*.dll
+*.DLL
+*.exe
+*.EXE
+dosyalar/
+
+# Large capture / disk artifacts
+*.pcapng
+*.pcap
+*.qcow2
+*.iso
+*.img
+
+# Raw disassembly/objdump dumps (derived from copyrighted binaries)
+full_objdump.txt
+*.asm
+
+.DS_Store
+*.swp
