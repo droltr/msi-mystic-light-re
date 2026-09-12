@@ -4,6 +4,8 @@ Reverse-engineering the USB protocol variant of MSI Mystic Light used by a speci
 
 **Status: work in progress, not yet usable.** This repo currently documents findings, not a finished fix.
 
+> **Türkçe özet:** Bu depo, MSI Mystic Light'ın bu anakart revizyonunda kullandığı USB protokol varyantını tersine mühendislik yaparak `OpenRGB`'de düzeltilmesini hedefliyor. Cihaz (`0db0:0076`) OpenRGB tarafından kısmen tanınıyor ama yanlış protokol varyantı hedeflendiği için çalışmıyor. USB trafiği yakalama altyapısı (usbmon + tshark) çalışır durumda; ancak üretici yazılımının (MSI Center) bir VM-tespit engelini henüz aşamadığımız için gerçek bir renk/efekt değiştirme komutu yakalanamadı. Proje devam ediyor. Depo içeriği (kod, teknik dokümantasyon) İngilizce; bu paragraf sadece hızlı bir özet için Türkçe eklendi.
+
 ## Target device
 
 **USB ID:** `0db0:0076` ("MYSTIC LIGHT"), on an MSI MAG B850 TOMAHAWK MAX WIFI (MS-7E62) motherboard. Controls the board's fan/case ARGB headers.
